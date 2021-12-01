@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let string = +("any numers of string");
+    function vowelcharacter(str) {
+            let count = 0;
+            for (let i = 0; i < str.length; i++) {
+                if (str[i] === 'r' || str[i] === 'i' || str[i] === 'c' || str[i] === 'a' || str[i] === 'd' || str[i] === 'o') {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        document.write(vowelcharacter(string))
+</script>
+
+</body>
+</html>
